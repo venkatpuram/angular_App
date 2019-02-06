@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { RouterModule } from '@angular/router';
 import { SigninModule } from './signin/signin.module';
+import { CartModule } from './cart/cart.module';
 @NgModule({
   declarations: [
     AppComponent
@@ -14,7 +15,8 @@ import { SigninModule } from './signin/signin.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    SigninModule
+    SigninModule,
+    CartModule
     // RouterModule.forRoot([
     //   {path:"signin", component:SigninComponent},
     //   { path: '', redirectTo: 'signin', pathMatch: 'full' },

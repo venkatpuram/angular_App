@@ -6,6 +6,13 @@ import { AppComponent } from './app.component';
 import { RouterModule } from '@angular/router';
 import { SigninModule } from './signin/signin.module';
 import { CartModule } from './cart/cart.module';
+import { ElectronicsModule } from './electronics/electronics.module';
+import { BooksModule } from './books/books.module';
+import { ClothingModule } from './clothing/clothing.module';
+import { BagsModule } from './bags/bags.module';
+import { FootwearModule } from './footwear/footwear.module';
+import { KitchenModule } from './kitchen/kitchen.module';
+import { SportsModule } from './sports/sports.module';
 @NgModule({
   declarations: [
     AppComponent
@@ -16,7 +23,14 @@ import { CartModule } from './cart/cart.module';
     BrowserModule,
     AppRoutingModule,
     SigninModule,
-    CartModule
+    CartModule,
+    ElectronicsModule,
+    BooksModule,
+    ClothingModule,
+    BagsModule,
+    FootwearModule,
+    KitchenModule,
+    SportsModule
     // RouterModule.forRoot([
     //   {path:"signin", component:SigninComponent},
     //   { path: '', redirectTo: 'signin', pathMatch: 'full' },
